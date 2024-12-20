@@ -58,9 +58,9 @@ CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 
   |Model | mAcc | OA | mIoU |
   |-------| ------| ----| -------|
-  |PointNet| 80.2 | 90.8 | 70.4 |
-  |PointNet++| 85.6 | 90.4 | 70.0 |
-  |Point Transformer|88.1|90.6|
+  |PointNet| 80.2 | 90.8 | 42.6 |
+  |PointNet++| 85.6 | 90.4 | 52.3 |
+  |Point Transformer|88.1|90.6|69.3|
 ---
 
 
