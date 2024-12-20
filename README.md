@@ -1,3 +1,8 @@
+project link: 
+
+https://connectpolyu-my.sharepoint.com/:u:/g/personal/19079312d_connect_polyu_hk/EaqfSP4E0WZBqbwaVMVdYOYBwnIY1KABd2zTk9HZBc7_DA?e=ZSdtTX
+
+
 # 		README
 
 ## A) Create Virtual Environment
