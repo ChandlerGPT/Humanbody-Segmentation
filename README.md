@@ -24,6 +24,7 @@ conda install pytorch==1.6.0 cudatoolkit=10.1 -c pytorch
 python train_semseg_humanbody.py --model pointnet_sem_seg
 ```
 ## PointNet++
+**Relevant Files(under `pointnet_pointnet+`):**
 ### Data Preparation
 - Download the THuman dataset and save in `data/thuman`.
 - `data_utils/human_util.py`
@@ -35,6 +36,7 @@ python train_semseg_humanbody.py --model pointnet_sem_seg
 python train_semseg_humanbody_pointnet2.py --model pointnet2_sem_seg
 ```
 ## Point Transformer
+**Relevant Files(under `point-transformer-main`):**
 Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 ### Data Preparation
 - Download the THuman dataset and save in `data/thuman`
