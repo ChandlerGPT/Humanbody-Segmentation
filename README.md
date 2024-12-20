@@ -6,6 +6,7 @@ The paper of these models are:
 [Point Transformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf)
 [Kernel Point Convolution](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf)
 [Straitified Transformer](https://openaccess.thecvf.com/content/CVPR2022/papers/Lai_Stratified_Transformer_for_3D_Point_Cloud_Segmentation_CVPR_2022_paper.pdf)
+[Human3D](https://human-3d.github.io/assets/Human3D_paper.pdf)
 ## PointNet
 **Relevant Files(under `pointnet_pointnet+`):**
 ### Install
