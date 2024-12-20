@@ -1,12 +1,12 @@
-# Point Cloud Human Body Segmentation
+## Point Cloud Human Body Segmentation
 
-## A) Create Virtual Environment
+### A) Create Virtual Environment
 
 The main steps are to follow the Human3D `reademe.md` file. However, some adjustments were made during the process according to the actual situation of the equipment and the operation needs of the project:
 
 Because source code compilation and installation are required, the Linux system was chosen for installation (Ubuntu 20.04).
 
-### Install Hydra and hydra-core
+#### Install Hydra and hydra-core
 
 This installation requires attention to the corresponding Python version. The highest dependency for these two libraries is Python 3.7. Therefore, when creating a virtual environment, always use `python==3.7`. If a higher version is used, an error will be reported when running the program later.
 
@@ -15,7 +15,7 @@ pip install python-hydra
 pip install hydra-core==1.0.5
 ```
 
-## B) Installation of Detectron2
+### B) Installation of Detectron2
 
 The installation can be completed using the following commands. However, if the installation fails multiple times, it may be necessary to use local installation by downloading the package first.
 
@@ -35,7 +35,7 @@ cd detectron2
 pip install -e .
 ```
 
-## C) Installation of MinkowskiEngine
+### C) Installation of MinkowskiEngine
 
 ```bash
 git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
@@ -46,9 +46,9 @@ python setup.py install --force_cuda --blas=openblas
 
 Other versions can be configured in `Human3D.yaml`.
 
-## D) Run the Code
+### D) Run the Code
 
-### Dataset
+#### Dataset
 
 - Download dataset from: [Human3D Dataset](https://human-3d.github.io/dataset/)
 
@@ -56,7 +56,7 @@ Other versions can be configured in `Human3D.yaml`.
 
 - With labeled dataset: [WithLabel Dataset](https://drive.google.com/drive/folders/1QtNufGOSBdmBeZw1o7vRUpzOZBA7d3cD?usp=sharing)
 
-### Download Model
+#### Download Model
 
 Run the following script to download the checkpoints:
 
@@ -77,13 +77,13 @@ Save in the `checkpoint` folder:
 
 ![Model Screenshot](https://github.com/user-attachments/assets/ed103666-a5f2-4e02-b964-8ed4b74b0d34)
 
-### Debug
+#### Debug
 
 Adjust the address of the dataset as needed based on the program's requirements. The newly generated address may differ from the original and needs to be corrected.
 
 ![Debug Screenshot](https://github.com/user-attachments/assets/735bc469-7f2b-4fe8-bc76-a51e599b68cb)
 
-### Run Preprocessing Script
+#### Run Preprocessing Script
 
 ```bash
 python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1" --save_dir="./data/processed/egobody" --dataset="egobody"
@@ -95,7 +95,7 @@ python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/
 - `save_dir`: Address to save processed data.
 - `dataset`: Database name being used.
 
-### Main Program
+#### Main Program
 
 For parameter settings, refer to the `script/train` folder.
 
