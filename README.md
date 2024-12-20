@@ -21,7 +21,30 @@ python train_semseg_humanbody.py --model pointnet_sem_seg
 ## PointNet++
 ## Point Transformer
 ## Stratified Transformer
+**Relevant Files (under `Stratified-Transformer-main`):**
+
+- **Dataset & Data Preparation:**
+  - `util/HumanBodySegmentation.py`
+  - `util/data_util.py` (including `data_prepare_humanbody` and other data preparation functions)
+  
+- **Training Code:**
+  - `train_humanAdded.py`
+  
+- **Configuration File:**
+  - `config/HumanBodySegmentation/HumanBodySegmentation_stratified_transformer.yaml`
+  
+- **Testing Code:**
+  - `test_humanAdded.py`
+
+**Note:** Use the same configuration file as in training.
 ## Kernel Point Convolution
+**Relevant Files (under `KPConv-master`):**
+
+- `training_HumanBodySegmentationDataset.py`: Main training script for KPConv on the HumanBodySegmentation dataset.
+- `HumanBodySegmentation.py`: Dataset loading and preprocessing, including point cloud reading, subsampling, and batch creation.
+- `models/KPFCNN_model.py`: KPConv model definition, implementing kernel point convolutions and network architecture.
+- `utils/config.py`: General configuration for adjusting dataset and task parameters.
+- `utils/trainer.py`: Trainer handling training loops, validation, logging, and checkpointing.
 ## human3d reprodcution
 ### A) Create Virtual Environment
 
