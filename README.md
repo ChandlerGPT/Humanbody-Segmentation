@@ -92,14 +92,6 @@ CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 - `models/KPFCNN_model.py`: KPConv model definition, implementing kernel point convolutions and network architecture.
 - `utils/config.py`: General configuration for adjusting dataset and task parameters.
 - `utils/trainer.py`: Trainer handling training loops, validation, logging, and checkpointing.
-## Preliminary Experimental Results
-- HumanBodySegmentation with KPConv&Stratified-Transformer
-
-| Model                  | mIoU |
-|------------------------|----------------------------------|
-| **KPConv**             | 72.3%                           |
-| **Stratified Transformer** | 76.8%                           |
----
 ## human3d reprodcution
 
 Human3D reproduction project link: https://drive.google.com/file/d/1gYBG4I0SVu6sOOuMUsmn-txYH8BQ9wXW/view?usp=sharing
