@@ -19,6 +19,12 @@ Download the THuman dataset and save in `data/thuman`.
 python train_semseg_humanbody.py --model pointnet_sem_seg
 ```
 ## PointNet++
+### Data Preparation
+Download the THuman dataset and save in `data/thuman`.
+### Run
+```shell
+python train_semseg_humanbody_pointnet2.py --model pointnet2_sem_seg
+```
 ## Point Transformer
 ## Stratified Transformer
 **Relevant Files (under `Stratified-Transformer-main`):**
