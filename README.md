@@ -252,6 +252,15 @@ The running results can be reviewed after following the setup above.
 }
 ```
 ```
+@inproceedings{takmaz23iccv,
+    title     = {{3D Segmentation of Humans in Point Clouds with Synthetic Data}},
+    author    = {Takmaz, Ay\c{c}a and Schult, Jonas and Kaftan, Irem and Ak\c{c}ay, Mertcan 
+                  and Leibe, Bastian and Sumner, Robert and Engelmann, Francis and Tang, Siyu},
+    booktitle = {{International Conference on Computer Vision}},
+    year      = {2023}
+  }
+```
+```
 @InProceedings{yan20222dpass,
       title={2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds}, 
       author={Xu Yan and Jiantao Gao and Chaoda Zheng and Chao Zheng and Ruimao Zhang and Shuguang Cui and Zhen Li},
