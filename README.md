@@ -25,8 +25,12 @@ python train_semseg_humanbody.py --model pointnet_sem_seg
 ```
 ## PointNet++
 ### Data Preparation
-Download the THuman dataset and save in `data/thuman`.
+- Download the THuman dataset and save in `data/thuman`.
+- `data_utils/human_util.py`
+- `data_utils/THumanDataLoader.py`
 ### Run
+- Training file is in `train_semseg_humanbody_pointnet2.py`.
+- Testing file is in `test_semseg.py`
 ```shell
 python train_semseg_humanbody_pointnet2.py --model pointnet2_sem_seg
 ```
