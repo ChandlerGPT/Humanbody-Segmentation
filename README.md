@@ -40,7 +40,7 @@ Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 - Download the THuman dataset and save in `data/thuman`
 - `util/thuman.py`
 - Label: `data/thuman_names.txt`
-Download the THuman dataset and save in `data/thuman`.
+- Download the THuman dataset and save in `data/thuman`.
 ### Run
 - Training file is in `tool/train.py`
 - Testing file is in `tool/test.py`
