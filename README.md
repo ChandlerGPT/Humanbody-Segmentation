@@ -56,11 +56,11 @@ CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 
 - Semanctic Segmentation with PointNet PointNet++ PointTransformer
 
-  |Model | mAcc | OA | mIoU |
-  |-------| ------| ----| -------|
-  |PointNet| 80.2 | 90.8 | 42.6 |
-  |PointNet++| 85.6 | 90.4 | 52.3 |
-  |Point Transformer|88.1|90.6|69.3|
+  |Model | mAcc |mIoU |
+  |-------| ------| -------|
+  |PointNet| 80.2 | 42.6 |
+  |PointNet++| 85.6 | 52.3 |
+  |Point Transformer|88.1|69.3|
 ---
 
 
