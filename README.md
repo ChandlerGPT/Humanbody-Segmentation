@@ -80,9 +80,11 @@ A）human3d.ckpt
 
 Mask3d.ckpt
 
+![image](https://github.com/user-attachments/assets/ed103666-a5f2-4e02-b964-8ed4b74b0d34)
 
 Debug
 According to the results of the data set, adjust the address where the data is located when the program is running. The new address spliced ​​after reading the data in the running discovery program is different from the original address and needs to be corrected:
+![image](https://github.com/user-attachments/assets/735bc469-7f2b-4fe8-bc76-a51e599b68cb)
 
 
 
@@ -90,6 +92,7 @@ According to the results of the data set, adjust the address where the data is l
 
 Python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1"  --save_dir="./data/processed/egobody"  --dataset="egobody"
 
+![image](https://github.com/user-attachments/assets/f35729ec-38a2-4241-9f0b-757629d78c82)
 
 *Data_dir is the address where the downloaded data set is stored, Save_dir is the address where the save is run, and dataset is the database name used.
 
@@ -97,11 +100,13 @@ Python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/
 main.py
 
 parameter setting
-
 see script/train folder。
+![image](https://github.com/user-attachments/assets/148c6fb4-2d6e-4b86-b4c7-f33b9709a9e3)
 
 
 The setting of the parameters in the red box corresponds to the setting using egobody data. Black font is the name of the corresponding folder. The blue font is the parameter name in the file in this folder. Please read each document accordingly and will not repeat them here.
 
 The running results are as follows:
+![image](https://github.com/user-attachments/assets/121a139d-29e8-4941-9359-20c7f863ac56)
+
 
