@@ -209,3 +209,35 @@ The running results can be reviewed after following the setup above.
 ![Results Screenshot](https://github.com/user-attachments/assets/121a139d-29e8-4941-9359-20c7f863ac56)
 
 ## Citation
+```
+@article{Pytorch_Pointnet_Pointnet2,
+      Author = {Xu Yan},
+      Title = {Pointnet/Pointnet++ Pytorch},
+      Journal = {https://github.com/yanx27/Pointnet_Pointnet2_pytorch},
+      Year = {2019}
+}
+```
+```
+@InProceedings{yan2020pointasnl,
+  title={PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling},
+  author={Yan, Xu and Zheng, Chaoda and Li, Zhen and Wang, Sheng and Cui, Shuguang},
+  journal={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}
+}
+```
+```
+@InProceedings{yan2021sparse,
+  title={Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion},
+  author={Yan, Xu and Gao, Jiantao and Li, Jie and Zhang, Ruimao, and Li, Zhen and Huang, Rui and Cui, Shuguang},
+  journal={AAAI Conference on Artificial Intelligence ({AAAI})},
+  year={2021}
+}
+```
+```
+@InProceedings{yan20222dpass,
+      title={2DPASS: 2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds}, 
+      author={Xu Yan and Jiantao Gao and Chaoda Zheng and Chao Zheng and Ruimao Zhang and Shuguang Cui and Zhen Li},
+      year={2022},
+      journal={ECCV}
+}
+```
