@@ -1,4 +1,16 @@
 # Point Cloud Human Body Segmentation
+This repo is implementation of 5 models for point cloud segmentation
+The paper of these models are:
+[PointNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
+[PointNet++](https://proceedings.neurips.cc/paper_files/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf)
+[Point Transformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf)
+[Kernel Point Convolution](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf)
+[Straitified Transformer](https://openaccess.thecvf.com/content/CVPR2022/papers/Lai_Stratified_Transformer_for_3D_Point_Cloud_Segmentation_CVPR_2022_paper.pdf)
+## PointNet
+## PointNet++
+## Point Transformer
+## Stratified Transformer
+## Kernel Point Convolution
 ## human3d reprodcution
 ### A) Create Virtual Environment
 
