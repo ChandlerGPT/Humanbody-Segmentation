@@ -1,6 +1,6 @@
 # 		README
 
-Create Virtual Environment
+## A) Create Virtual Environment
 
 The main steps are to follow the Human3D reademe.md file. However, some adjustments were made during the process according to the actual situation of the equipment and the operation needs of the project:
 
@@ -15,7 +15,7 @@ pip install python-hydra
 Pip install hydra-core==1.0.5  
 
 
-B) Installation of detectron2.
+## B) Installation of detectron2.
 
 The installation can be successful by following the following command, but if it is installed several times, the installation may not be successful. Therefore, the command has been distributed, and the online download and installation method has been changed to first download to the local and then install from the local.
 
@@ -39,7 +39,7 @@ cd detectron2
 
 pip install -e . 
 
-C ) MinkowskiEnginede 
+## C ) MinkowskiEnginede 
 
 1）git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
 
@@ -54,11 +54,13 @@ Other version see Human3d.yaml
 
 
 
-2、Run the code
+## D) Run the code
 
 1）Dataset :
 
 https://human-3d.github.io/dataset/
+![image](https://github.com/user-attachments/assets/cbdd54bc-3340-4d1f-8a33-54736495a9d7)
+
 
 
 And withLabel dataset：
@@ -86,7 +88,7 @@ According to the results of the data set, adjust the address where the data is l
 
 4）Run
 
-A)Python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1"  --save_dir="./data/processed/egobody"  --dataset="egobody"
+Python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1"  --save_dir="./data/processed/egobody"  --dataset="egobody"
 
 
 *Data_dir is the address where the downloaded data set is stored, Save_dir is the address where the save is run, and dataset is the database name used.
