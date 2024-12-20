@@ -1,117 +1,116 @@
-project link: 
-
-https://connectpolyu-my.sharepoint.com/:u:/g/personal/19079312d_connect_polyu_hk/EaqfSP4E0WZBqbwaVMVdYOYBwnIY1KABd2zTk9HZBc7_DA?e=ZSdtTX
-
-
-# 		Point Cloud Human Body Segmentation
+# Point Cloud Human Body Segmentation
 
 ## A) Create Virtual Environment
 
-The main steps are to follow the Human3D reademe.md file. However, some adjustments were made during the process according to the actual situation of the equipment and the operation needs of the project:
+The main steps are to follow the Human3D `reademe.md` file. However, some adjustments were made during the process according to the actual situation of the equipment and the operation needs of the project:
 
-Because source code compilation and installation are required, I chose the Linux system for installation (ubuntu20.04)A)  
+Because source code compilation and installation are required, the Linux system was chosen for installation (Ubuntu 20.04).
 
-Install Hydra and hydra-core
+### Install Hydra and hydra-core
 
-This installation requires attention to the corresponding python version. The python version with the highest dependency between these two is version 3.7. Therefore, when creating a virtual environment, always python==3.7. If the version is higher, an error will be reported when running the program later.
+This installation requires attention to the corresponding Python version. The highest dependency for these two libraries is Python 3.7. Therefore, when creating a virtual environment, always use `python==3.7`. If a higher version is used, an error will be reported when running the program later.
 
+```bash
 pip install python-hydra
+pip install hydra-core==1.0.5
+```
 
-Pip install hydra-core==1.0.5  
+## B) Installation of Detectron2
 
+The installation can be completed using the following commands. However, if the installation fails multiple times, it may be necessary to use local installation by downloading the package first.
 
-## B) Installation of detectron2.
+```bash
+pip3 install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python fvcore
+pip install Cython
+pip install git+https://github.com/philferriere/cocoapi.git
+```
 
-The installation can be successful by following the following command, but if it is installed several times, the installation may not be successful. Therefore, the command has been distributed, and the online download and installation method has been changed to first download to the local and then install from the local.
+Using the terminal:
 
-pip3 install 
-
-'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
-
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python   fvcore
-
-2）pip install Cython
-
-3）pip install git+https://github.com/philferriere/cocoapi.git
-
-Then use cmd:
-
-1）git clone 
-
+```bash
+git clone https://github.com/facebookresearch/detectron2.git
 git checkout 710e7795d0eeadf9def0e7ef957eea13532e34cf
-
 cd detectron2
+pip install -e .
+```
 
-pip install -e . 
+## C) Installation of MinkowskiEngine
 
-## C ) MinkowskiEnginede 
+```bash
+git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
+cd MinkowskiEngine
+git checkout 02fc608bea4c0549b0a7b00ca1bf15dee4a0b228
+python setup.py install --force_cuda --blas=openblas
+```
 
-1）git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
+Other versions can be configured in `Human3D.yaml`.
 
-2）cd MinkowskiEngine
+## D) Run the Code
 
-3）git checkout 02fc608bea4c0549b0a7b00ca1bf15dee4a0b228
+### Dataset
 
-4）python setup.py install --force_cuda --blas=openblas
+- Download dataset from: [Human3D Dataset](https://human-3d.github.io/dataset/)
 
+![Dataset Screenshot](https://github.com/user-attachments/assets/cbdd54bc-3340-4d1f-8a33-54736495a9d7)
 
-Other version see Human3d.yaml
+- With labeled dataset: [WithLabel Dataset](https://drive.google.com/drive/folders/1QtNufGOSBdmBeZw1o7vRUpzOZBA7d3cD?usp=sharing)
 
+### Download Model
 
+Run the following script to download the checkpoints:
 
-## D) Run the code
+```bash
+~/Human3D/download_checkpoints.sh
+```
 
-1）Dataset :
+URLs for the models:
 
-https://human-3d.github.io/dataset/
-![image](https://github.com/user-attachments/assets/cbdd54bc-3340-4d1f-8a33-54736495a9d7)
-
-
-
-And withLabel dataset：
-
-https://drive.google.com/drive/folders/1QtNufGOSBdmBeZw1o7vRUpzOZBA7d3cD?usp=sharing
-
-download model
-
-Run ~/Human3D/download_checkpoints.sh
-
+```bash
 URL1="https://omnomnom.vision.rwth-aachen.de/data/human3d/checkpoints/mask3d.ckpt"
-
 URL2="https://omnomnom.vision.rwth-aachen.de/data/human3d/checkpoints/human3d.ckpt"
+```
 
-Save in checkpointfolder：
-A）human3d.ckpt
+Save in the `checkpoint` folder:
+- `human3d.ckpt`
+- `mask3d.ckpt`
 
-Mask3d.ckpt
+![Model Screenshot](https://github.com/user-attachments/assets/ed103666-a5f2-4e02-b964-8ed4b74b0d34)
 
-![image](https://github.com/user-attachments/assets/ed103666-a5f2-4e02-b964-8ed4b74b0d34)
+### Debug
 
-Debug
-According to the results of the data set, adjust the address where the data is located when the program is running. The new address spliced ​​after reading the data in the running discovery program is different from the original address and needs to be corrected:
-![image](https://github.com/user-attachments/assets/735bc469-7f2b-4fe8-bc76-a51e599b68cb)
+Adjust the address of the dataset as needed based on the program's requirements. The newly generated address may differ from the original and needs to be corrected.
 
+![Debug Screenshot](https://github.com/user-attachments/assets/735bc469-7f2b-4fe8-bc76-a51e599b68cb)
 
+### Run Preprocessing Script
 
-4）Run
+```bash
+python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1" --save_dir="./data/processed/egobody" --dataset="egobody"
+```
 
-Python datasets/preprocessing/humanseg_preprocessing.py preprocess --data_dir="/gemini/data-1"  --save_dir="./data/processed/egobody"  --dataset="egobody"
+![Preprocessing Screenshot](https://github.com/user-attachments/assets/f35729ec-38a2-4241-9f0b-757629d78c82)
 
-![image](https://github.com/user-attachments/assets/f35729ec-38a2-4241-9f0b-757629d78c82)
+- `data_dir`: Address where the downloaded dataset is stored.
+- `save_dir`: Address to save processed data.
+- `dataset`: Database name being used.
 
-*Data_dir is the address where the downloaded data set is stored, Save_dir is the address where the save is run, and dataset is the database name used.
+### Main Program
 
+For parameter settings, refer to the `script/train` folder.
 
-main.py
+![Parameter Settings Screenshot](https://github.com/user-attachments/assets/148c6fb4-2d6e-4b86-b4c7-f33b9709a9e3)
 
-parameter setting
-see script/train folder。
-![image](https://github.com/user-attachments/assets/148c6fb4-2d6e-4b86-b4c7-f33b9709a9e3)
+The parameters for using the `egobody` data are highlighted as follows:
+- Black font indicates folder names.
+- Blue font indicates parameter names in the file within the folder.
 
+Please read the corresponding documents for details.
 
-The setting of the parameters in the red box corresponds to the setting using egobody data. Black font is the name of the corresponding folder. The blue font is the parameter name in the file in this folder. Please read each document accordingly and will not repeat them here.
+---
 
-The running results are as follows:
-![image](https://github.com/user-attachments/assets/121a139d-29e8-4941-9359-20c7f863ac56)
+## Running Results
 
+The running results can be reviewed after following the setup above.
 
+![Results Screenshot](https://github.com/user-attachments/assets/121a139d-29e8-4941-9359-20c7f863ac56)
