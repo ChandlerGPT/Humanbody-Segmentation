@@ -52,6 +52,7 @@ Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 ```shell
 CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 ```
+##Performance
 
 
 ## Stratified Transformer
