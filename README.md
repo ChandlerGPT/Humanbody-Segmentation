@@ -18,8 +18,8 @@ conda install pytorch==1.6.0 cudatoolkit=10.1 -c pytorch
 - `data_utils/human_util.py`
 - `data_utils/THumanDataLoader.py`
 ### Run
--Training file is in `train_semseg_humanbody.py`.
--Testing file is in `test_semseg.py`
+- Training file is in `train_semseg_humanbody.py`.
+- Testing file is in `test_semseg.py`
 ```shell
 python train_semseg_humanbody.py --model pointnet_sem_seg
 ```
