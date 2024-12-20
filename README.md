@@ -37,7 +37,7 @@ python train_semseg_humanbody_pointnet2.py --model pointnet2_sem_seg
 ```
 ## Point Transformer
 **Relevant Files(under `point-transformer-main`):**
-Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
+- Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 ### Data Preparation
 - Download the THuman dataset and save in `data/thuman`
 - `util/thuman.py`
