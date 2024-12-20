@@ -101,6 +101,8 @@ CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 | **Stratified Transformer** | 76.8%                           |
 ---
 ## human3d reprodcution
+
+whole project link: https://drive.google.com/file/d/1gYBG4I0SVu6sOOuMUsmn-txYH8BQ9wXW/view?usp=sharing
 ### A) Create Virtual Environment
 
 The main steps are to follow the Human3D `reademe.md` file. However, some adjustments were made during the process according to the actual situation of the equipment and the operation needs of the project:
