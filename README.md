@@ -7,14 +7,19 @@ The paper of these models are:
 [Kernel Point Convolution](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf)
 [Straitified Transformer](https://openaccess.thecvf.com/content/CVPR2022/papers/Lai_Stratified_Transformer_for_3D_Point_Cloud_Segmentation_CVPR_2022_paper.pdf)
 ## PointNet
+**Relevant Files(under `pointnet_pointnet+`):**
 ### Install
 The latest codes are tested on Ubuntu 16.04, CUDA10.1, PyTorch 1.6 and Python 3.7:
 ```shell
 conda install pytorch==1.6.0 cudatoolkit=10.1 -c pytorch
 ```
 ### Data Preparation
-Download the THuman dataset and save in `data/thuman`.
+- Download the THuman dataset and save in `data/thuman`.
+- `data_utils/human_util.py`
+- `data_utils/THumanDataLoader.py`
 ### Run
+-Training file is in `train_semseg_humanbody.py`
+-Testing file is in `test_semseg.py`
 ```shell
 python train_semseg_humanbody.py --model pointnet_sem_seg
 ```
