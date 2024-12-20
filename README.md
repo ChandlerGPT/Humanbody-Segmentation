@@ -218,11 +218,29 @@ The running results can be reviewed after following the setup above.
 }
 ```
 ```
-@InProceedings{yan2020pointasnl,
-  title={PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling},
-  author={Yan, Xu and Zheng, Chaoda and Li, Zhen and Wang, Sheng and Cui, Shuguang},
-  journal={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2020}
+@article{thomas2019KPConv,
+    Author = {Thomas, Hugues and Qi, Charles R. and Deschaud, Jean-Emmanuel and Marcotegui, Beatriz and Goulette, Fran{\c{c}}ois and Guibas, Leonidas J.},
+    Title = {KPConv: Flexible and Deformable Convolution for Point Clouds},
+    Journal = {Proceedings of the IEEE International Conference on Computer Vision},
+    Year = {2019}
+}
+```
+```
+@inproceedings{lai2022stratified,
+  title={Stratified Transformer for 3D Point Cloud Segmentation},
+  author={Lai, Xin and Liu, Jianhui and Jiang, Li and Wang, Liwei and Zhao, Hengshuang and Liu, Shu and Qi, Xiaojuan and Jia, Jiaya},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8500--8509},
+  year={2022}
+}
+```
+```
+@inproceedings{zhao2021point,
+  title={Point transformer},
+  author={Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={16259--16268},
+  year={2021}
 }
 ```
 ```
