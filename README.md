@@ -52,7 +52,16 @@ Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 ```shell
 CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro
 ```
-##Performance
+## Experimental Results
+
+- Semanctic Segmentation with PointNet PointNet++ PointTransformer
+
+  |Model | mAcc | OA | mIoU |
+  |-------| ------| ----| -------|
+  |PointNet| 80.2 | 90.8 | 70.4 |
+  |PointNet++| 85.6 | 90.4 | 70.0 |
+  |Point Transformer|88.1|90.6|
+---
 
 
 ## Stratified Transformer
