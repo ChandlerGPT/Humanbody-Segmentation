@@ -26,6 +26,11 @@ Download the THuman dataset and save in `data/thuman`.
 python train_semseg_humanbody_pointnet2.py --model pointnet2_sem_seg
 ```
 ## Point Transformer
+### Performance
+|Model  | Overall Acc | avg IoU | 
+|--|--|--|--|
+| PointNet (Pytorch) | 78.9 | 43.7| |
+| PointNet2_ssg (Pytorch) | **83.0** | **53.5**| |
 ## Stratified Transformer
 **Relevant Files (under `Stratified-Transformer-main`):**
 
