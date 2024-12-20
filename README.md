@@ -44,6 +44,10 @@ Configuration file: `config/s3dis/thuman_pointtransformer_repro.yaml`
 ### Run
 - Training file is in `tool/train.py`
 - Testing file is in `tool/test.py`
+- Train the model
+- `sh tool/train.sh thuman pointtransformer_repro`
+- Test the model Specify the gpu
+- `CUDA_VISIBLE_DEVICES=0 sh tool/test.sh thuman pointtransformer_repro`
 
 
 ## Stratified Transformer
