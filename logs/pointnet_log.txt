@@ -1,0 +1,404 @@
+2024-12-10 22:18:29,607 - Model - INFO - PARAMETER ...
+2024-12-10 22:18:29,607 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=50, gpu='0', learning_rate=0.001, log_dir='pointnet_log', lr_decay=0.7, model='train_semseg_humanbody', npoint=4096, optimizer='Adam', step_size=10, test_area=5)
+2024-12-10 22:18:29,787 - Model - INFO - The number of training data is: 400
+2024-12-10 22:18:29,788 - Model - INFO - The number of test data is: 50
+2024-12-10 22:18:29,956 - Model - INFO - **** Epoch 001 (1/50) ****
+2024-12-10 22:18:29,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 22:18:29,048 - Model - INFO - Training mean loss: 1.395175
+2024-12-10 22:37:56,048 - Model - INFO - Training accuracy: 0.59622
+2024-12-10 22:37:56,549 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2024-12-10 22:37:56,660 - Model - INFO - eval mean loss: 1.479488
+2024-12-10 22:37:56,660 - Model - INFO - eval point accuracy: 0.576319
+2024-12-10 22:37:56,770 - Model - INFO - Best mIoU: 0.238775
+2024-12-10 22:37:56,956 - Model - INFO - **** Epoch 002 (2/50) ****
+2024-12-10 22:37:56,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 22:48:12,048 - Model - INFO - Training mean loss: 1.390284
+2024-12-10 22:48:12,048 - Model - INFO - Training accuracy: 0.601325
+2024-12-10 22:48:12,549 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2024-12-10 22:48:12,660 - Model - INFO - eval mean loss: 1.477718
+2024-12-10 22:48:12,660 - Model - INFO - eval point accuracy: 0.584337
+2024-12-10 22:48:12,770 - Model - INFO - Best mIoU: 0.243353
+2024-12-10 22:48:12,956 - Model - INFO - **** Epoch 003 (3/50) ****
+2024-12-10 23:07:22,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:07:22,048 - Model - INFO - Training mean loss: 1.352201
+2024-12-10 23:07:22,048 - Model - INFO - Training accuracy: 0.607297
+2024-12-10 23:07:22,549 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2024-12-10 23:07:22,660 - Model - INFO - eval mean loss: 1.439631
+2024-12-10 23:07:22,660 - Model - INFO - eval point accuracy: 0.588382
+2024-12-10 23:07:22,770 - Model - INFO - Best mIoU: 0.248588
+2024-12-10 23:15:07,956 - Model - INFO - **** Epoch 004 (4/50) ****
+2024-12-10 23:15:07,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:15:07,048 - Model - INFO - Training mean loss: 1.306917
+2024-12-10 23:15:07,048 - Model - INFO - Training accuracy: 0.60865
+2024-12-10 23:15:07,549 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2024-12-10 23:15:07,660 - Model - INFO - eval mean loss: 1.437302
+2024-12-10 23:15:07,660 - Model - INFO - eval point accuracy: 0.589423
+2024-12-10 23:16:51,770 - Model - INFO - Best mIoU: 0.252735
+2024-12-10 23:16:51,956 - Model - INFO - **** Epoch 005 (5/50) ****
+2024-12-10 23:16:51,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:16:51,048 - Model - INFO - Training mean loss: 1.305368
+2024-12-10 23:16:51,048 - Model - INFO - Training accuracy: 0.613512
+2024-12-10 23:16:51,549 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2024-12-10 23:16:51,660 - Model - INFO - eval mean loss: 1.441897
+2024-12-10 23:18:34,660 - Model - INFO - eval point accuracy: 0.598415
+2024-12-10 23:18:34,770 - Model - INFO - Best mIoU: 0.252735
+2024-12-10 23:18:34,956 - Model - INFO - **** Epoch 006 (6/50) ****
+2024-12-10 23:18:34,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:18:34,048 - Model - INFO - Training mean loss: 1.278711
+2024-12-10 23:18:34,048 - Model - INFO - Training accuracy: 0.615328
+2024-12-10 23:18:34,549 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2024-12-10 23:29:02,660 - Model - INFO - eval mean loss: 1.446925
+2024-12-10 23:29:02,660 - Model - INFO - eval point accuracy: 0.603243
+2024-12-10 23:29:02,770 - Model - INFO - Best mIoU: 0.254714
+2024-12-10 23:29:02,956 - Model - INFO - **** Epoch 007 (7/50) ****
+2024-12-10 23:29:02,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:29:02,048 - Model - INFO - Training mean loss: 1.249488
+2024-12-10 23:29:02,048 - Model - INFO - Training accuracy: 0.622021
+2024-12-10 23:31:47,549 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2024-12-10 23:31:47,660 - Model - INFO - eval mean loss: 1.440481
+2024-12-10 23:31:47,660 - Model - INFO - eval point accuracy: 0.610029
+2024-12-10 23:31:47,770 - Model - INFO - Best mIoU: 0.258788
+2024-12-10 23:31:47,956 - Model - INFO - **** Epoch 008 (8/50) ****
+2024-12-10 23:31:47,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:31:47,048 - Model - INFO - Training mean loss: 1.226934
+2024-12-10 23:35:51,048 - Model - INFO - Training accuracy: 0.62918
+2024-12-10 23:35:51,549 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2024-12-10 23:35:51,660 - Model - INFO - eval mean loss: 1.446809
+2024-12-10 23:35:51,660 - Model - INFO - eval point accuracy: 0.610036
+2024-12-10 23:35:51,770 - Model - INFO - Best mIoU: 0.264972
+2024-12-10 23:35:51,956 - Model - INFO - **** Epoch 009 (9/50) ****
+2024-12-10 23:35:51,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:46:20,048 - Model - INFO - Training mean loss: 1.210739
+2024-12-10 23:46:20,048 - Model - INFO - Training accuracy: 0.635182
+2024-12-10 23:46:20,549 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2024-12-10 23:46:20,660 - Model - INFO - eval mean loss: 1.438042
+2024-12-10 23:46:20,660 - Model - INFO - eval point accuracy: 0.619495
+2024-12-10 23:46:20,770 - Model - INFO - Best mIoU: 0.266142
+2024-12-10 23:46:20,956 - Model - INFO - **** Epoch 010 (10/50) ****
+2024-12-10 23:58:33,956 - Model - INFO - Learning rate:0.001000
+2024-12-10 23:58:33,048 - Model - INFO - Training mean loss: 1.182457
+2024-12-10 23:58:33,048 - Model - INFO - Training accuracy: 0.634051
+2024-12-10 23:58:33,549 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2024-12-10 23:58:33,660 - Model - INFO - eval mean loss: 1.42718
+2024-12-10 23:58:33,660 - Model - INFO - eval point accuracy: 0.621377
+2024-12-10 23:58:33,770 - Model - INFO - Best mIoU: 0.27131
+2024-12-11 00:19:32,956 - Model - INFO - **** Epoch 011 (11/50) ****
+2024-12-11 00:19:32,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 00:19:32,048 - Model - INFO - Training mean loss: 1.138518
+2024-12-11 00:19:32,048 - Model - INFO - Training accuracy: 0.639335
+2024-12-11 00:19:32,549 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2024-12-11 00:19:32,660 - Model - INFO - eval mean loss: 1.435213
+2024-12-11 00:19:32,660 - Model - INFO - eval point accuracy: 0.625089
+2024-12-11 00:30:07,770 - Model - INFO - Best mIoU: 0.275679
+2024-12-11 00:30:07,956 - Model - INFO - **** Epoch 012 (12/50) ****
+2024-12-11 00:30:07,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 00:30:07,048 - Model - INFO - Training mean loss: 1.14198
+2024-12-11 00:30:07,048 - Model - INFO - Training accuracy: 0.648624
+2024-12-11 00:30:07,549 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2024-12-11 00:30:07,660 - Model - INFO - eval mean loss: 1.424994
+2024-12-11 00:44:56,660 - Model - INFO - eval point accuracy: 0.632994
+2024-12-11 00:44:56,770 - Model - INFO - Best mIoU: 0.275988
+2024-12-11 00:44:56,956 - Model - INFO - **** Epoch 013 (13/50) ****
+2024-12-11 00:44:56,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 00:44:56,048 - Model - INFO - Training mean loss: 1.084499
+2024-12-11 00:44:56,048 - Model - INFO - Training accuracy: 0.644809
+2024-12-11 00:44:56,549 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2024-12-11 00:51:08,660 - Model - INFO - eval mean loss: 1.42635
+2024-12-11 00:51:08,660 - Model - INFO - eval point accuracy: 0.631631
+2024-12-11 00:51:08,770 - Model - INFO - Best mIoU: 0.282054
+2024-12-11 00:51:08,956 - Model - INFO - **** Epoch 014 (14/50) ****
+2024-12-11 00:51:08,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 00:51:08,048 - Model - INFO - Training mean loss: 1.069383
+2024-12-11 00:51:08,048 - Model - INFO - Training accuracy: 0.64773
+2024-12-11 01:06:29,549 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2024-12-11 01:06:29,660 - Model - INFO - eval mean loss: 1.4277
+2024-12-11 01:06:29,660 - Model - INFO - eval point accuracy: 0.636284
+2024-12-11 01:06:29,770 - Model - INFO - Best mIoU: 0.282054
+2024-12-11 01:06:29,956 - Model - INFO - **** Epoch 015 (15/50) ****
+2024-12-11 01:06:29,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:06:29,048 - Model - INFO - Training mean loss: 1.038559
+2024-12-11 01:09:48,048 - Model - INFO - Training accuracy: 0.655636
+2024-12-11 01:09:48,549 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2024-12-11 01:09:48,660 - Model - INFO - eval mean loss: 1.422832
+2024-12-11 01:09:48,660 - Model - INFO - eval point accuracy: 0.636176
+2024-12-11 01:09:48,770 - Model - INFO - Best mIoU: 0.289603
+2024-12-11 01:09:48,956 - Model - INFO - **** Epoch 016 (16/50) ****
+2024-12-11 01:09:48,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:14:14,048 - Model - INFO - Training mean loss: 1.048592
+2024-12-11 01:14:14,048 - Model - INFO - Training accuracy: 0.66032
+2024-12-11 01:14:14,549 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2024-12-11 01:14:14,660 - Model - INFO - eval mean loss: 1.412438
+2024-12-11 01:14:14,660 - Model - INFO - eval point accuracy: 0.641532
+2024-12-11 01:14:14,770 - Model - INFO - Best mIoU: 0.289603
+2024-12-11 01:14:14,956 - Model - INFO - **** Epoch 017 (17/50) ****
+2024-12-11 01:24:24,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:24:24,048 - Model - INFO - Training mean loss: 1.01346
+2024-12-11 01:24:24,048 - Model - INFO - Training accuracy: 0.669557
+2024-12-11 01:24:24,549 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2024-12-11 01:24:24,660 - Model - INFO - eval mean loss: 1.423773
+2024-12-11 01:24:24,660 - Model - INFO - eval point accuracy: 0.651632
+2024-12-11 01:24:24,770 - Model - INFO - Best mIoU: 0.293325
+2024-12-11 01:37:57,956 - Model - INFO - **** Epoch 018 (18/50) ****
+2024-12-11 01:37:57,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:37:57,048 - Model - INFO - Training mean loss: 0.966033
+2024-12-11 01:37:57,048 - Model - INFO - Training accuracy: 0.672286
+2024-12-11 01:37:57,549 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2024-12-11 01:37:57,660 - Model - INFO - eval mean loss: 1.423916
+2024-12-11 01:37:57,660 - Model - INFO - eval point accuracy: 0.656295
+2024-12-11 01:44:10,770 - Model - INFO - Best mIoU: 0.297332
+2024-12-11 01:44:10,956 - Model - INFO - **** Epoch 019 (19/50) ****
+2024-12-11 01:44:10,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:44:10,048 - Model - INFO - Training mean loss: 0.96254
+2024-12-11 01:44:10,048 - Model - INFO - Training accuracy: 0.675959
+2024-12-11 01:44:10,549 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2024-12-11 01:44:10,660 - Model - INFO - eval mean loss: 1.409245
+2024-12-11 01:59:59,660 - Model - INFO - eval point accuracy: 0.661165
+2024-12-11 01:59:59,770 - Model - INFO - Best mIoU: 0.298395
+2024-12-11 01:59:59,956 - Model - INFO - **** Epoch 020 (20/50) ****
+2024-12-11 01:59:59,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 01:59:59,048 - Model - INFO - Training mean loss: 0.912159
+2024-12-11 01:59:59,048 - Model - INFO - Training accuracy: 0.672108
+2024-12-11 01:59:59,549 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2024-12-11 02:00:13,660 - Model - INFO - eval mean loss: 1.415555
+2024-12-11 02:00:13,660 - Model - INFO - eval point accuracy: 0.6578
+2024-12-11 02:00:13,770 - Model - INFO - Best mIoU: 0.304864
+2024-12-11 02:00:13,956 - Model - INFO - **** Epoch 021 (21/50) ****
+2024-12-11 02:00:13,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 02:00:13,048 - Model - INFO - Training mean loss: 0.924025
+2024-12-11 02:00:13,048 - Model - INFO - Training accuracy: 0.678252
+2024-12-11 02:20:14,549 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2024-12-11 02:20:14,660 - Model - INFO - eval mean loss: 1.411176
+2024-12-11 02:20:14,660 - Model - INFO - eval point accuracy: 0.662668
+2024-12-11 02:20:14,770 - Model - INFO - Best mIoU: 0.308951
+2024-12-11 02:20:14,956 - Model - INFO - **** Epoch 022 (22/50) ****
+2024-12-11 02:20:14,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 02:20:14,048 - Model - INFO - Training mean loss: 0.901285
+2024-12-11 02:29:36,048 - Model - INFO - Training accuracy: 0.686112
+2024-12-11 02:29:36,549 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2024-12-11 02:29:36,660 - Model - INFO - eval mean loss: 1.426562
+2024-12-11 02:29:36,660 - Model - INFO - eval point accuracy: 0.670526
+2024-12-11 02:29:36,770 - Model - INFO - Best mIoU: 0.312927
+2024-12-11 02:29:36,956 - Model - INFO - **** Epoch 023 (23/50) ****
+2024-12-11 02:29:36,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 02:37:46,048 - Model - INFO - Training mean loss: 0.853999
+2024-12-11 02:37:46,048 - Model - INFO - Training accuracy: 0.689678
+2024-12-11 02:37:46,549 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2024-12-11 02:37:46,660 - Model - INFO - eval mean loss: 1.390663
+2024-12-11 02:37:46,660 - Model - INFO - eval point accuracy: 0.679089
+2024-12-11 02:37:46,770 - Model - INFO - Best mIoU: 0.312927
+2024-12-11 02:37:46,956 - Model - INFO - **** Epoch 024 (24/50) ****
+2024-12-11 02:53:51,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 02:53:51,048 - Model - INFO - Training mean loss: 0.815109
+2024-12-11 02:53:51,048 - Model - INFO - Training accuracy: 0.689732
+2024-12-11 02:53:51,549 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2024-12-11 02:53:51,660 - Model - INFO - eval mean loss: 1.38334
+2024-12-11 02:53:51,660 - Model - INFO - eval point accuracy: 0.675382
+2024-12-11 02:53:51,770 - Model - INFO - Best mIoU: 0.316961
+2024-12-11 03:03:40,956 - Model - INFO - **** Epoch 025 (25/50) ****
+2024-12-11 03:03:40,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 03:03:40,048 - Model - INFO - Training mean loss: 0.826066
+2024-12-11 03:03:40,048 - Model - INFO - Training accuracy: 0.693894
+2024-12-11 03:03:40,549 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2024-12-11 03:03:40,660 - Model - INFO - eval mean loss: 1.412399
+2024-12-11 03:03:40,660 - Model - INFO - eval point accuracy: 0.675019
+2024-12-11 03:21:47,770 - Model - INFO - Best mIoU: 0.319121
+2024-12-11 03:21:47,956 - Model - INFO - **** Epoch 026 (26/50) ****
+2024-12-11 03:21:47,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 03:21:47,048 - Model - INFO - Training mean loss: 0.773348
+2024-12-11 03:21:47,048 - Model - INFO - Training accuracy: 0.701487
+2024-12-11 03:21:47,549 - Model - INFO - ---- EPOCH 026 EVALUATION ----
+2024-12-11 03:21:47,660 - Model - INFO - eval mean loss: 1.401129
+2024-12-11 03:39:32,660 - Model - INFO - eval point accuracy: 0.684845
+2024-12-11 03:39:32,770 - Model - INFO - Best mIoU: 0.325045
+2024-12-11 03:39:32,956 - Model - INFO - **** Epoch 027 (27/50) ****
+2024-12-11 03:39:32,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 03:39:32,048 - Model - INFO - Training mean loss: 0.758383
+2024-12-11 03:39:32,048 - Model - INFO - Training accuracy: 0.703261
+2024-12-11 03:39:32,549 - Model - INFO - ---- EPOCH 027 EVALUATION ----
+2024-12-11 03:46:58,660 - Model - INFO - eval mean loss: 1.395752
+2024-12-11 03:46:58,660 - Model - INFO - eval point accuracy: 0.685717
+2024-12-11 03:46:58,770 - Model - INFO - Best mIoU: 0.328872
+2024-12-11 03:46:58,956 - Model - INFO - **** Epoch 028 (28/50) ****
+2024-12-11 03:46:58,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 03:46:58,048 - Model - INFO - Training mean loss: 0.749671
+2024-12-11 03:46:58,048 - Model - INFO - Training accuracy: 0.705961
+2024-12-11 03:52:50,549 - Model - INFO - ---- EPOCH 028 EVALUATION ----
+2024-12-11 03:52:50,660 - Model - INFO - eval mean loss: 1.401283
+2024-12-11 03:52:50,660 - Model - INFO - eval point accuracy: 0.693319
+2024-12-11 03:52:50,770 - Model - INFO - Best mIoU: 0.332783
+2024-12-11 03:52:50,956 - Model - INFO - **** Epoch 029 (29/50) ****
+2024-12-11 03:52:50,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 03:52:50,048 - Model - INFO - Training mean loss: 0.707784
+2024-12-11 04:01:29,048 - Model - INFO - Training accuracy: 0.715277
+2024-12-11 04:01:29,549 - Model - INFO - ---- EPOCH 029 EVALUATION ----
+2024-12-11 04:01:29,660 - Model - INFO - eval mean loss: 1.395106
+2024-12-11 04:01:29,660 - Model - INFO - eval point accuracy: 0.701752
+2024-12-11 04:01:29,770 - Model - INFO - Best mIoU: 0.336697
+2024-12-11 04:01:29,956 - Model - INFO - **** Epoch 030 (30/50) ****
+2024-12-11 04:01:29,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 04:16:46,048 - Model - INFO - Training mean loss: 0.679703
+2024-12-11 04:16:46,048 - Model - INFO - Training accuracy: 0.716412
+2024-12-11 04:16:46,549 - Model - INFO - ---- EPOCH 030 EVALUATION ----
+2024-12-11 04:16:46,660 - Model - INFO - eval mean loss: 1.384992
+2024-12-11 04:16:46,660 - Model - INFO - eval point accuracy: 0.700977
+2024-12-11 04:16:46,770 - Model - INFO - Best mIoU: 0.339522
+2024-12-11 04:16:46,956 - Model - INFO - **** Epoch 031 (31/50) ****
+2024-12-11 04:30:42,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 04:30:42,048 - Model - INFO - Training mean loss: 0.664305
+2024-12-11 04:30:42,048 - Model - INFO - Training accuracy: 0.720681
+2024-12-11 04:30:42,549 - Model - INFO - ---- EPOCH 031 EVALUATION ----
+2024-12-11 04:30:42,660 - Model - INFO - eval mean loss: 1.403384
+2024-12-11 04:30:42,660 - Model - INFO - eval point accuracy: 0.704499
+2024-12-11 04:30:42,770 - Model - INFO - Best mIoU: 0.341271
+2024-12-11 04:40:30,956 - Model - INFO - **** Epoch 032 (32/50) ****
+2024-12-11 04:40:30,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 04:40:30,048 - Model - INFO - Training mean loss: 0.653214
+2024-12-11 04:40:30,048 - Model - INFO - Training accuracy: 0.726892
+2024-12-11 04:40:30,549 - Model - INFO - ---- EPOCH 032 EVALUATION ----
+2024-12-11 04:40:30,660 - Model - INFO - eval mean loss: 1.371461
+2024-12-11 04:40:30,660 - Model - INFO - eval point accuracy: 0.708097
+2024-12-11 04:51:23,770 - Model - INFO - Best mIoU: 0.34272
+2024-12-11 04:51:23,956 - Model - INFO - **** Epoch 033 (33/50) ****
+2024-12-11 04:51:23,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 04:51:23,048 - Model - INFO - Training mean loss: 0.629081
+2024-12-11 04:51:23,048 - Model - INFO - Training accuracy: 0.731221
+2024-12-11 04:51:23,549 - Model - INFO - ---- EPOCH 033 EVALUATION ----
+2024-12-11 04:51:23,660 - Model - INFO - eval mean loss: 1.399268
+2024-12-11 05:04:03,660 - Model - INFO - eval point accuracy: 0.717077
+2024-12-11 05:04:03,770 - Model - INFO - Best mIoU: 0.349442
+2024-12-11 05:04:03,956 - Model - INFO - **** Epoch 034 (34/50) ****
+2024-12-11 05:04:03,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:04:03,048 - Model - INFO - Training mean loss: 0.573814
+2024-12-11 05:04:03,048 - Model - INFO - Training accuracy: 0.735683
+2024-12-11 05:04:03,549 - Model - INFO - ---- EPOCH 034 EVALUATION ----
+2024-12-11 05:11:48,660 - Model - INFO - eval mean loss: 1.365781
+2024-12-11 05:11:48,660 - Model - INFO - eval point accuracy: 0.722052
+2024-12-11 05:11:48,770 - Model - INFO - Best mIoU: 0.35024
+2024-12-11 05:11:48,956 - Model - INFO - **** Epoch 035 (35/50) ****
+2024-12-11 05:11:48,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:11:48,048 - Model - INFO - Training mean loss: 0.577762
+2024-12-11 05:11:48,048 - Model - INFO - Training accuracy: 0.737561
+2024-12-11 05:18:05,549 - Model - INFO - ---- EPOCH 035 EVALUATION ----
+2024-12-11 05:18:05,660 - Model - INFO - eval mean loss: 1.388366
+2024-12-11 05:18:05,660 - Model - INFO - eval point accuracy: 0.722459
+2024-12-11 05:18:05,770 - Model - INFO - Best mIoU: 0.351988
+2024-12-11 05:18:05,956 - Model - INFO - **** Epoch 036 (36/50) ****
+2024-12-11 05:18:05,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:18:05,048 - Model - INFO - Training mean loss: 0.526165
+2024-12-11 05:28:49,048 - Model - INFO - Training accuracy: 0.738449
+2024-12-11 05:28:49,549 - Model - INFO - ---- EPOCH 036 EVALUATION ----
+2024-12-11 05:28:49,660 - Model - INFO - eval mean loss: 1.364752
+2024-12-11 05:28:49,660 - Model - INFO - eval point accuracy: 0.723552
+2024-12-11 05:28:49,770 - Model - INFO - Best mIoU: 0.358872
+2024-12-11 05:28:49,956 - Model - INFO - **** Epoch 037 (37/50) ****
+2024-12-11 05:28:49,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:47:50,048 - Model - INFO - Training mean loss: 0.533272
+2024-12-11 05:47:50,048 - Model - INFO - Training accuracy: 0.747474
+2024-12-11 05:47:50,549 - Model - INFO - ---- EPOCH 037 EVALUATION ----
+2024-12-11 05:47:50,660 - Model - INFO - eval mean loss: 1.370127
+2024-12-11 05:47:50,660 - Model - INFO - eval point accuracy: 0.733249
+2024-12-11 05:47:50,770 - Model - INFO - Best mIoU: 0.361393
+2024-12-11 05:47:50,956 - Model - INFO - **** Epoch 038 (38/50) ****
+2024-12-11 05:57:25,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:57:25,048 - Model - INFO - Training mean loss: 0.500053
+2024-12-11 05:57:25,048 - Model - INFO - Training accuracy: 0.746583
+2024-12-11 05:57:25,549 - Model - INFO - ---- EPOCH 038 EVALUATION ----
+2024-12-11 05:57:25,660 - Model - INFO - eval mean loss: 1.383969
+2024-12-11 05:57:25,660 - Model - INFO - eval point accuracy: 0.731806
+2024-12-11 05:57:25,770 - Model - INFO - Best mIoU: 0.365333
+2024-12-11 05:58:30,956 - Model - INFO - **** Epoch 039 (39/50) ****
+2024-12-11 05:58:30,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 05:58:30,048 - Model - INFO - Training mean loss: 0.466533
+2024-12-11 05:58:30,048 - Model - INFO - Training accuracy: 0.749039
+2024-12-11 05:58:30,549 - Model - INFO - ---- EPOCH 039 EVALUATION ----
+2024-12-11 05:58:30,660 - Model - INFO - eval mean loss: 1.352529
+2024-12-11 05:58:30,660 - Model - INFO - eval point accuracy: 0.729338
+2024-12-11 06:06:24,770 - Model - INFO - Best mIoU: 0.365465
+2024-12-11 06:06:24,956 - Model - INFO - **** Epoch 040 (40/50) ****
+2024-12-11 06:06:24,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:06:24,048 - Model - INFO - Training mean loss: 0.436845
+2024-12-11 06:06:24,048 - Model - INFO - Training accuracy: 0.755908
+2024-12-11 06:06:24,549 - Model - INFO - ---- EPOCH 040 EVALUATION ----
+2024-12-11 06:06:24,660 - Model - INFO - eval mean loss: 1.378706
+2024-12-11 06:11:12,660 - Model - INFO - eval point accuracy: 0.739991
+2024-12-11 06:11:12,770 - Model - INFO - Best mIoU: 0.373436
+2024-12-11 06:11:12,956 - Model - INFO - **** Epoch 041 (41/50) ****
+2024-12-11 06:11:12,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:11:12,048 - Model - INFO - Training mean loss: 0.413228
+2024-12-11 06:11:12,048 - Model - INFO - Training accuracy: 0.765176
+2024-12-11 06:11:12,549 - Model - INFO - ---- EPOCH 041 EVALUATION ----
+2024-12-11 06:19:24,660 - Model - INFO - eval mean loss: 1.365573
+2024-12-11 06:19:24,660 - Model - INFO - eval point accuracy: 0.75172
+2024-12-11 06:19:24,770 - Model - INFO - Best mIoU: 0.374904
+2024-12-11 06:19:24,956 - Model - INFO - **** Epoch 042 (42/50) ****
+2024-12-11 06:19:24,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:19:24,048 - Model - INFO - Training mean loss: 0.408875
+2024-12-11 06:19:24,048 - Model - INFO - Training accuracy: 0.764059
+2024-12-11 06:28:11,549 - Model - INFO - ---- EPOCH 042 EVALUATION ----
+2024-12-11 06:28:11,660 - Model - INFO - eval mean loss: 1.357259
+2024-12-11 06:28:11,660 - Model - INFO - eval point accuracy: 0.744451
+2024-12-11 06:28:11,770 - Model - INFO - Best mIoU: 0.377238
+2024-12-11 06:28:11,956 - Model - INFO - **** Epoch 043 (43/50) ****
+2024-12-11 06:28:11,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:28:11,048 - Model - INFO - Training mean loss: 0.376053
+2024-12-11 06:29:24,048 - Model - INFO - Training accuracy: 0.772377
+2024-12-11 06:29:24,549 - Model - INFO - ---- EPOCH 043 EVALUATION ----
+2024-12-11 06:29:24,660 - Model - INFO - eval mean loss: 1.359425
+2024-12-11 06:29:24,660 - Model - INFO - eval point accuracy: 0.753365
+2024-12-11 06:29:24,770 - Model - INFO - Best mIoU: 0.381723
+2024-12-11 06:29:24,956 - Model - INFO - **** Epoch 044 (44/50) ****
+2024-12-11 06:29:24,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:40:53,048 - Model - INFO - Training mean loss: 0.344732
+2024-12-11 06:40:53,048 - Model - INFO - Training accuracy: 0.775779
+2024-12-11 06:40:53,549 - Model - INFO - ---- EPOCH 044 EVALUATION ----
+2024-12-11 06:40:53,660 - Model - INFO - eval mean loss: 1.366194
+2024-12-11 06:40:53,660 - Model - INFO - eval point accuracy: 0.756011
+2024-12-11 06:40:53,770 - Model - INFO - Best mIoU: 0.382614
+2024-12-11 06:40:53,956 - Model - INFO - **** Epoch 045 (45/50) ****
+2024-12-11 06:58:40,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 06:58:40,048 - Model - INFO - Training mean loss: 0.319522
+2024-12-11 06:58:40,048 - Model - INFO - Training accuracy: 0.780448
+2024-12-11 06:58:40,549 - Model - INFO - ---- EPOCH 045 EVALUATION ----
+2024-12-11 06:58:40,660 - Model - INFO - eval mean loss: 1.337829
+2024-12-11 06:58:40,660 - Model - INFO - eval point accuracy: 0.765558
+2024-12-11 06:58:40,770 - Model - INFO - Best mIoU: 0.387853
+2024-12-11 07:05:45,956 - Model - INFO - **** Epoch 046 (46/50) ****
+2024-12-11 07:05:45,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 07:05:45,048 - Model - INFO - Training mean loss: 0.298074
+2024-12-11 07:05:45,048 - Model - INFO - Training accuracy: 0.782493
+2024-12-11 07:05:45,549 - Model - INFO - ---- EPOCH 046 EVALUATION ----
+2024-12-11 07:05:45,660 - Model - INFO - eval mean loss: 1.35985
+2024-12-11 07:05:45,660 - Model - INFO - eval point accuracy: 0.763477
+2024-12-11 07:19:22,770 - Model - INFO - Best mIoU: 0.392097
+2024-12-11 07:19:22,956 - Model - INFO - **** Epoch 047 (47/50) ****
+2024-12-11 07:19:22,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 07:19:22,048 - Model - INFO - Training mean loss: 0.282189
+2024-12-11 07:19:22,048 - Model - INFO - Training accuracy: 0.786997
+2024-12-11 07:19:22,549 - Model - INFO - ---- EPOCH 047 EVALUATION ----
+2024-12-11 07:19:22,660 - Model - INFO - eval mean loss: 1.357011
+2024-12-11 07:30:54,660 - Model - INFO - eval point accuracy: 0.768615
+2024-12-11 07:30:54,770 - Model - INFO - Best mIoU: 0.394784
+2024-12-11 07:30:54,956 - Model - INFO - **** Epoch 048 (48/50) ****
+2024-12-11 07:30:54,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 07:30:54,048 - Model - INFO - Training mean loss: 0.236715
+2024-12-11 07:30:54,048 - Model - INFO - Training accuracy: 0.793357
+2024-12-11 07:30:54,549 - Model - INFO - ---- EPOCH 048 EVALUATION ----
+2024-12-11 07:43:27,660 - Model - INFO - eval mean loss: 1.362898
+2024-12-11 07:43:27,660 - Model - INFO - eval point accuracy: 0.777713
+2024-12-11 07:43:27,770 - Model - INFO - Best mIoU: 0.395111
+2024-12-11 07:43:27,956 - Model - INFO - **** Epoch 049 (49/50) ****
+2024-12-11 07:43:27,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 07:43:27,048 - Model - INFO - Training mean loss: 0.236371
+2024-12-11 07:43:27,048 - Model - INFO - Training accuracy: 0.795588
+2024-12-11 07:55:14,549 - Model - INFO - ---- EPOCH 049 EVALUATION ----
+2024-12-11 07:55:14,660 - Model - INFO - eval mean loss: 1.350518
+2024-12-11 07:55:14,660 - Model - INFO - eval point accuracy: 0.780255
+2024-12-11 07:55:14,770 - Model - INFO - Best mIoU: 0.403228
+2024-12-11 07:55:14,956 - Model - INFO - **** Epoch 050 (50/50) ****
+2024-12-11 07:55:14,956 - Model - INFO - Learning rate:0.001000
+2024-12-11 07:55:14,048 - Model - INFO - Training mean loss: 0.210517
+2024-12-11 08:14:12,048 - Model - INFO - Training accuracy: 0.797395
+2024-12-11 08:14:12,549 - Model - INFO - ---- EPOCH 050 EVALUATION ----
+2024-12-11 08:14:12,660 - Model - INFO - eval mean loss: 1.343199
+2024-12-11 08:14:12,660 - Model - INFO - eval point accuracy: 0.782427
+2024-12-11 08:14:12,770 - Model - INFO - Best mIoU: 0.403228
